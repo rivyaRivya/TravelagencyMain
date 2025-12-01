@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="description"/>
+		<item value="setId"/>
+		<item value="createProduct"/>
+		<item value="userId"/>
+		<item value="assignre"/>
+		<item value="assign_date"/>
+		<item value="update-booking"/>
+		<item value="availability"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="package com.woodconnectApp.woodconnectApp.controller;"/>
+		<list key="findhistory">
+			<item value="package com.woodconnectApp.woodconnectApp.controller;"/>
+			<item value="&#x09; public Integer getId() {"/>
+		</list>
+	</section>
+</section>

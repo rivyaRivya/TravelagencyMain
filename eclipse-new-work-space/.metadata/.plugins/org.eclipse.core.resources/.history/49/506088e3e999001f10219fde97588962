@@ -1,0 +1,58 @@
+package com.transport.transport.controller;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.transport.transport.dto.BookingDTO;
+import com.transport.transport.entity.Booking;
+import com.transport.transport.service.impl.BookingServiceImpl;
+@RestController
+@RequestMapping("/api/bookings")
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+public class BookingController {
+	@Autowired
+    private BookingServiceImpl bookingService;
+	
+	@PostMapping
+    public String createBooking(@RequestBody BookingDTO  bookinginfo) {
+       System.out.print(bookinginfo);
+		LocalDateTime bookingDate1 = LocalDateTime.parse(bookinginfo.getBookingdate());
+        LocalDateTime enddate1 = LocalDateTime.parse(bookinginfo.getEnddate());
+        LocalDateTime startdate1 = LocalDateTime.parse(bookinginfo.getStartdate());
+        Integer vehicleId = Integer.parseInt(bookinginfo.getVehicleId());
+        String transactionid = bookinginfo.getTransactionid();
+        String origin = bookinginfo.getOrigin();
+        String destination = bookinginfo.getDestination();
+        String status = bookinginfo.getStatus();
+        Integer userId;
+        Integer driverId;
+        if(bookinginfo.getUserId() != null) {
+            userId = Integer.parseInt(bookinginfo.getUserId());
+        }else {
+
+            userId = null;
+        }
+        if(bookinginfo.getDriverId() != null) {
+        	driverId = Integer.parseInt(bookinginfo.getDriverId());
+        }else {
+        	driverId = Integer.parseInt(bookinginfo.getDriverId());
+        }
+        Booking booking = bookingService.createBooking(vehicleId, bookingDate1, startdate1, enddate1, transactionid, origin, destination,status,userId,driverId);
+        return "Booked successfully";
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Booking>> getBookings() {
+        return ResponseEntity.ok(bookingService.getBookings());
+    }
+}

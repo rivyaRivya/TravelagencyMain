@@ -1,0 +1,75 @@
+package com.transport.transport.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.transport.transport.entity.TouristPlace;
+import com.transport.transport.service.TouristPlaceService;
+
+
+@RestController
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+public class PlaceContoller {
+	
+	@Autowired
+	private TouristPlaceService touristPlaceService;
+	
+	@PostMapping("/add-vehicle")
+	@ResponseBody
+	public String addPlace(@RequestBody TouristPlace place) {
+		touristPlaceService.addPlace(place);
+		return "Vehicle added successfully";
+	}
+	
+	 /**
+     * get users as list
+     */
+
+    @GetMapping("/get-vehicle")
+    public List<TouristPlace> getPlace() {
+        return touristPlaceService.getPlace();
+    }
+
+    /**
+     * get user by id
+     */
+
+    @GetMapping("/get-vehicle-details")
+    public TouristPlace getPlacedetails(@RequestParam Integer id) {
+        return touristPlaceService.getPlaceDetail(id);
+    }
+    
+    /**
+     * update user
+     */
+
+    @PutMapping("/update-vehicle/{id}")
+    public ResponseEntity<Void> updatePlace(@PathVariable Integer id, @RequestBody TouristPlace place) {
+    	touristPlaceService.updatePlace(id, place);
+
+        return ResponseEntity.noContent().build();
+    }
+
+    /**
+     * delete user
+     */
+
+    @DeleteMapping("delete-vehicle/{id}")
+    public ResponseEntity<Void> deletePlace(@PathVariable Integer id){
+    	touristPlaceService.deletePlace(id);
+
+        return ResponseEntity.noContent().build();
+    }
+}

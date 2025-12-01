@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.transport.transport.dto.BookingDTO"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.services.WoodTypeServices"/>
+    <fullyQualifiedTypeName name="com.transport.transport.service.UserService"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.WoodTypeDTO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.service.impl.ProductServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.OrderRequest"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.repository.OrderDetailsRepository"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.entity.OrderTable"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.entity.OrderDetails"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.entity.WoodType"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.repository.WoodTypeRepository"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.ProductDTO"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.OrderDetailsDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.jaxb.SpringDataJaxb.OrderDto"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.OrderTableDTO"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.entity.Product"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.repository.ProductRepository"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.QuotationDTO"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.entity.Quotation"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.repository.OrderTableRepository"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.TotalCount"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.repository.QuotationRepository"/>
+    <fullyQualifiedTypeName name="org.hibernate.mapping.UserDefinedObjectType"/>
+    <fullyQualifiedTypeName name="com.woodconnectApp.woodconnectApp.dto.UserDTO"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

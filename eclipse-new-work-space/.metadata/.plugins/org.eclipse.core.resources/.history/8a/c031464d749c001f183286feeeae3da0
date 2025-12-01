@@ -1,0 +1,123 @@
+package com.transport.transport.service.impl;
+
+import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
+
+import com.razorpay.Order;
+import com.razorpay.RazorpayClient;
+import com.razorpay.RazorpayException;
+import com.transport.transport.dto.DriverDTO;
+import com.transport.transport.dto.LoginDTO;
+import com.transport.transport.dto.UserDTO;
+import com.transport.transport.entity.Driver;
+import com.transport.transport.entity.Transaction;
+import com.transport.transport.entity.Vehicle;
+import com.transport.transport.entity.login;
+import com.transport.transport.repository.userRepositiry;
+import com.transport.transport.service.UserService;
+
+import jakarta.json.JsonObject;
+
+@Service
+public class UserServiceImpl implements UserService{
+
+	private static final String key = "rzp_test_hLoSbQq7gnxAJY";
+	private static final String secretKey ="9OvqVceWi9MkzB2DCoxTGYEw";
+	private static final String currency ="INR"; 
+	@Autowired
+	private userRepositiry userRepositiry;
+	
+	@Override
+	public void adduser(LoginDTO user) {
+		login userData = new login();
+		userData.setAddress(user.getAddress());
+		userData.setCity(user.getCity());
+		userData.setDob(user.getDob());
+		userData.setEmail(user.getEmail());
+		userData.setFirstname(user.getFirstname());
+		userData.setGender(user.getGender());
+		userData.setLastname(user.getLastname());
+		userData.setMobile(user.getMobile());
+		userData.setPassword(user.getPassword());
+		userData.setPin(user.getPin());
+		userRepositiry.save(userData);
+	}
+    
+    
+	@Override
+	public Integer login(UserDTO user) {
+		login userData = userRepositiry.findByEmail(user.getEmail())
+	            .orElseThrow(() -> new RuntimeException("not found"));
+		return userData.getId();
+	}
+
+
+	@Override
+	public Transaction createTransaction(Double amount) {
+		try {
+			JSONObject jsonObject = new JSONObject();
+			jsonObject.put("amount", amount *100);
+			jsonObject.put("currency", currency);
+			RazorpayClient razorpayClient = new RazorpayClient(key,secretKey);
+			Order order = razorpayClient.Orders.create(jsonObject);
+			Transaction transaction = prepareTransaction(order);
+			return transaction;
+		} catch (RazorpayException e) {
+			System.out.print(e.getMessage());
+		}
+		return null;
+		
+	}
+	
+	public Transaction prepareTransaction(Order order) {
+		String orderId = order.get("id");
+		String currency= order.get("currency");
+		Integer amount = order.get("amount");
+		
+		Transaction transaction = new Transaction(orderId,currency,amount);
+		return transaction;
+	}
+	
+	@Override
+	public void updateUser(Integer id, LoginDTO user) {
+		login userData = userRepositiry
+        .findById(id)
+        .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Invalid user Id:" + id));
+		userData.setId(id);
+		userData.setAddress(user.getAddress());
+		userData.setCity(user.getCity());
+		userData.setDob(user.getDob());
+		userData.setEmail(user.getEmail());
+		userData.setFirstname(user.getFirstname());
+		userData.setGender(user.getGender());
+		userData.setLastname(user.getLastname());
+		userData.setMobile(user.getMobile());
+		userData.setPin(user.getPin());
+		userData.setId(user.getId());
+		userRepositiry.save(userData);
+	}
+
+
+	@Override
+	public LoginDTO getUserDetail(Integer id) {
+		login user = userRepositiry
+                .findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Invalid user Id:" + id));
+        LoginDTO userData = new LoginDTO(null, currency, currency, currency, currency, currency, currency, currency, secretKey, key, currency);
+        userData.setId(id);
+		userData.setAddress(user.getAddress());
+		userData.setCity(user.getCity());
+		userData.setDob(user.getDob());
+		userData.setEmail(user.getEmail());
+		userData.setFirstname(user.getAddress());
+		userData.setGender(user.getGender());
+		userData.setLastname(user.getLastname());
+		userData.setMobile(user.getMobile());
+		userData.setPin(user.getPin());
+		userData.setId(user.getId());
+		return userData;
+	}
+}
