@@ -1,0 +1,7 @@
+package com.example.travelAgency;
+
+public class GenerationType {
+
+	public static final String AUTO = null;
+
+}

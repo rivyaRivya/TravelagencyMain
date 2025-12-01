@@ -1,0 +1,7 @@
+package com.example.travelAgency;
+
+public @interface GeneratedValue {
+
+	String strategy();
+
+}

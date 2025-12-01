@@ -1,0 +1,5 @@
+package com.example.travelAgency;
+
+public interface CrudRepository<T1, T2> {
+
+}
