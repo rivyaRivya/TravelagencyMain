@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\modal",
+    "\\src\\app\\modal\\modal",
+    "\\src\\app\\services",
+    "\\src\\app\\services\\interceptor",
+    "\\src\\app\\vehicle-list",
+    "\\src\\app\\vehicle-list-admin",
+    "\\Travelagency"
+  ],
+  "PreviewInSolutionExplorer": false
+}

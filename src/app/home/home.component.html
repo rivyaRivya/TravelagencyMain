@@ -1,0 +1,113 @@
+<app-header></app-header>
+<div class="row">
+  <div class="col">
+    <div class="main-div">
+      <div class="sub">
+        <div style="background-image: url(https://assets.wego.com/image/upload/c_fill,fl_lossy,q_auto:best,f_auto,w_2560/v1678790459/web/campaigns/autumn-season/hero-image_2.jpg); " class="img-div"></div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="form-div">
+    <div class="form-in">
+      <div class="d-flex nCLduHoE3seO5UWewZ2F">
+        <a class="aJYihxO8u2GLBGKRK3eD F9ApbtHIUCu1ZDDF7OtJ"
+           href="/flights?wg_source=bing&amp;wg_medium=sem&amp;wg_campaign=416080097&amp;wg_adgroup=1168781603672333&amp;wg_content=&amp;wg_term=wego.com%7Cb&amp;wg_misc=%7Ckwd-73049350831900%3Aloc-90%7C&amp;ts_code=36ab9&amp;msclkid=56f0fbb3292e1b65c9739d4b108b3d2a">
+          <i class="Vy5mcMP2BBRJnuXkcNS2 RmmuwBcBAYEyksLvv8Bt"></i>Trip
+        </a>
+      </div>
+
+      <div >
+        <div >
+          <form style="margin:10px">
+            <div class="row">
+              <div class="col-3">
+                <label for="orders">From *</label>
+                <select id="orders" [(ngModel)]="vehicleData.origin" name="origin">
+                  <option *ngFor="let data of location">
+                    {{data}}
+                  </option>
+                </select>
+              </div>
+              <div class="col-3">
+                <label for="orders">To *</label>
+                <select id="orders" [(ngModel)]="vehicleData.destination" name="destination">
+                  <option *ngFor="let data of location">
+                    {{data}}
+                  </option>
+                </select>
+              </div>
+              <div class="col-3">
+                <label for="orders">Start Date *</label>
+                <div style="display: flex;">
+                  <input type="date" [(ngModel)]="vehicleData.startDate" name="starDate" />
+                  <input type="time" name="s" [(ngModel)]="startTime"/>
+                </div>
+              </div>
+              <div class="col-3">
+                <label for="orders">End Date *</label>
+                <div style="display: flex;">
+                  <input type="date" name="dateend" [(ngModel)]="vehicleData.endDate" />
+                  <input type="time" name="e" [(ngModel)]="endTime" />
+                </div>
+                </div>
+                <div class="col-3">
+                  <label for="type">Vehicle Type *</label>
+                  <select id="type" [(ngModel)]="vehicleData.type" name="type">
+                    <option>Car</option>
+                    <option>Bus</option>
+                    <option>Travaller</option>
+                  </select>
+                </div>
+                <div class="offset-6 col-3">
+                  <button type="button" class="mt-3" (click)="search()">Search</button>
+                </div>
+              </div>
+           
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style=" margin-left: 0px;">
+    <div class="col-3" *ngFor="let data of list;let i = index">
+      <img src='{{data.image}}' style="width:100%" *ngIf="i<=3">
+    </div>
+  </div>
+
+  <div class="row" style="margin-top:20px;padding-left:100px">
+    <div class="col-12">
+      <h5 class=" pl-3">Easy and fast</h5>
+    </div>
+    <div class="col-12">
+      <h2 class=" pl-3">Book your next trip </h2>
+    </div>
+    <div class="col-12" style="margin-top:10px">
+      <div class="row">
+        <div class="col-1">
+          <img src="assets/location.png" class="loc" />
+        </div>
+        <div class="col">
+          <h6>Choose destination</h6>
+          <p>Choose your favourite place</p>
+        </div>
+        <div class="col-1">
+          <img src="assets/payment.jpg" class="loc" />
+        </div>
+        <div class="col">
+          <h6>Choose destination</h6>
+          <p>Choose your favourite place</p>
+        </div>
+        <div class="col-1">
+          <img src="assets/cal.jpg" class="loc" />
+        </div>
+        <div class="col">
+          <h6>Choose destination</h6>
+          <p>Choose your favourite place</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<app-header></app-header>
+
+<button style="margin:5px; float:right;background:black;" (click)="newVehicle()"> Add new vehicle</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let head of header">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of list;let i = index;">
+      <td>{{i+1}}</td>
+      <td>{{user.type}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.seatcount}}</td>
+      <td>{{user.amount }} Rs
+      <td>
+        <button (click)="viewDetails(user.id)">View</button>
+      </td>
+      <td>
+        <button (click)="deleteVehicle(user.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

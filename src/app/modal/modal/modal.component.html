@@ -1,0 +1,9 @@
+<section class="p-5 userDetails">
+  <h6>Select a driver and allocate</h6>
+  <select [(ngModel)]="driver">
+    <option *ngFor="let data of drivers" value={{data.id}}>
+      {{data.firstname}}   {{data.lastName}}
+    </option>
+  </select>
+  <button (click)="allocate()">Allocate</button>
+</section>

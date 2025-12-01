@@ -1,0 +1,28 @@
+<app-header></app-header>
+
+<div class="row" style="margin:5px;">
+  <div class="col-6" *ngFor="let i of list">
+    <div class="row main-div">
+      <div class="col-2">
+        <div class="main-img">
+          <img src="{{i.image}}"  />
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <h5>{{i.name}} </h5>
+            <p>Package : {{i.amount}} Rs</p>
+            <p>No:of seat : {{i.seatcount}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <button (click)="selectVehicle(i)"> Select <img src="assets/right-arrow.svg" alt="Image Alt Text" style="height: 10px; margin-left: 10px; "></button>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="list.length ==0 && showData">
+    <h5 style="text-align:center;margin-top:300px">No data available</h5>
+  </div>
+</div>

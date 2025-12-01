@@ -1,0 +1,76 @@
+<app-header></app-header>
+
+<div class="form-container" style="background: url(assets/reg.jpg); background-size: cover">
+  <div class="row">
+    <div class="offset-3 col-9 pt-3" style="margin-bottom:25px;">
+      <form>
+        <div class="input-group">
+          <label><strong>First Name:</strong></label>
+          <input type="text" placeholder="Enter Your First Name" id="fname" [(ngModel)]="driverData.firstname" name="firstname">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Last Name:</strong></label>
+          <input type="text" placeholder="Enter Your Last Name" id="lname" [(ngModel)]="driverData.lastname" name="lastname">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Date of Birth:</strong></label>
+          <input type="date" id="dob" [(ngModel)]="driverData.dob" name="dob">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Email Id *:</strong></label>
+          <input type="email" placeholder="Enter Your Email Id" id="email-id" [(ngModel)]="driverData.email" name="email">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Mobile No. *:</strong></label>
+          <input type="tel" pattern="[1-9]{1}[0-9]{9}" placeholder="Enter your mobile number" id="phone-no" [(ngModel)]="driverData.mobile" name="mobile">
+        </div>
+        <div class="input-group">
+          <label><strong>Choose vehicle *:</strong></label>
+          <ng-select [items]=data
+                     bindLabel="name"
+                     placeholder="Select item"
+                     appendTo="body"
+                     name="type"
+                     [bindValue]="'Car'"
+                     [multiple]="true"
+                     [(ngModel)]="driverData.type">
+          </ng-select>
+        </div>
+        <div class="input-group">
+          <label><strong>Gender:</strong></label>
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="male" id="male" [(ngModel)]="driverData.gender">
+          <label for="male">Male</label>
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="female" id="female" [(ngModel)]="driverData.gender">
+          <label for="female">Female</label>
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="other" id="other" [(ngModel)]="driverData.gender">
+          <label for="other">Other</label>
+        </div>
+
+
+        <div class="input-group">
+          <label><strong>Address:</strong></label>
+          <input type="text" placeholder="Enter Your Address" id="address" [(ngModel)]="driverData.address" name="address">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Pin Code:</strong></label>
+          <input type="number" size=6 maxlength="6" placeholder="Enter Your Pin Code" id="pincode" [(ngModel)]="driverData.pin" name="pin">
+        </div>
+
+        <div class="input-group">
+          <label><strong>City:</strong></label>
+          <input type="text" placeholder="Enter Your City" id="city" [(ngModel)]="driverData.city" name="city">
+        </div>
+        <button (click)="addEditDriver()">Submit</button>
+
+      </form>
+
+    </div>
+  </div>
+
+</div>
+

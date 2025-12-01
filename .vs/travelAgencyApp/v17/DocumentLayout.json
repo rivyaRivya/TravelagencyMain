@@ -1,0 +1,911 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rivya\\travelAgencyApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\vehicle-list\\vehicle-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list-admin\\vehicle-list-admin.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\vehicle-list-admin\\vehicle-list-admin.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\vehicle-list\\vehicle-list.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\vehicle-list\\vehicle-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\services\\commonService.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\commonService.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\services\\commonService.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\commonService.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\main.server.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.server.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\modal\\modal\\modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\modal\\modal\\modal.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\modal\\modal\\modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\modal\\modal\\modal.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\register\\register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\register\\register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\Travelagency\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Travelagency\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\global.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\global.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\details\\details.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\details\\details.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\admin-home\\admin-home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\admin-home\\admin-home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\register\\register.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\profile\\profile.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\profile\\profile.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\profile\\profile.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\profile\\profile.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\place-details\\place-details.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\place-details\\place-details.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\place-details\\place-details.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\place-details\\place-details.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\payment\\payment.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\payment\\payment.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\payment\\payment.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\payment\\payment.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\home\\home.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\header\\header.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\header\\header.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\driver-list\\driver-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\driver-list\\driver-list.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\driver-list\\driver-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\driver-list\\driver-list.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver\\driver.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\driver\\driver.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver\\driver.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\driver\\driver.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\details\\details.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\details\\details.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\view-my-booking\\view-my-booking.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\view-my-booking\\view-my-booking.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rivya\\travelAgencyApp\\src\\app\\view-my-booking\\view-my-booking.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\view-my-booking\\view-my-booking.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 315,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vehicle-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\vehicle-list\\vehicle-list.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.ts",
+              "RelativeToolTip": "src\\app\\vehicle-list\\vehicle-list.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T08:21:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vehicle-list.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\vehicle-list\\vehicle-list.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.spec.ts",
+              "RelativeToolTip": "src\\app\\vehicle-list\\vehicle-list.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T08:20:46.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vehicle-list.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.html",
+              "RelativeDocumentMoniker": "src\\app\\vehicle-list\\vehicle-list.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list\\vehicle-list.component.html",
+              "RelativeToolTip": "src\\app\\vehicle-list\\vehicle-list.component.html",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T08:20:30.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "commonService.service.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\services\\commonService.service.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\commonService.service.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\services\\commonService.service.spec.ts",
+              "RelativeToolTip": "src\\app\\services\\commonService.service.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T08:15:48.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vehicle-list-admin.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list-admin\\vehicle-list-admin.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\vehicle-list-admin\\vehicle-list-admin.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\vehicle-list-admin\\vehicle-list-admin.component.ts",
+              "RelativeToolTip": "src\\app\\vehicle-list-admin\\vehicle-list-admin.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T08:10:28.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "modal.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.html",
+              "RelativeDocumentMoniker": "src\\app\\modal\\modal\\modal.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.html",
+              "RelativeToolTip": "src\\app\\modal\\modal\\modal.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T08:07:40.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "commonService.service.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\services\\commonService.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\commonService.service.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\services\\commonService.service.ts",
+              "RelativeToolTip": "src\\app\\services\\commonService.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:05:53.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.html",
+              "RelativeDocumentMoniker": "src\\app\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.html",
+              "RelativeToolTip": "src\\app\\login\\login.component.html",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-10T15:05:47.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "modal.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\modal\\modal\\modal.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.spec.ts",
+              "RelativeToolTip": "src\\app\\modal\\modal\\modal.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:23:43.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.server.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\main.server.ts",
+              "RelativeDocumentMoniker": "src\\main.server.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\main.server.ts",
+              "RelativeToolTip": "src\\main.server.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:08:04.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "register.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.html",
+              "RelativeDocumentMoniker": "src\\app\\register\\register.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.html",
+              "RelativeToolTip": "src\\app\\register\\register.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-07T14:04:43.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "modal.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\modal\\modal\\modal.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.ts",
+              "RelativeToolTip": "src\\app\\modal\\modal\\modal.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:23:47.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "register.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.css",
+              "RelativeDocumentMoniker": "src\\app\\register\\register.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.css",
+              "RelativeToolTip": "src\\app\\register\\register.component.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:25:25.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "home.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.html",
+              "RelativeDocumentMoniker": "src\\app\\home\\home.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.html",
+              "RelativeToolTip": "src\\app\\home\\home.component.html",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAACwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-07T14:37:56.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\Travelagency\\README.md",
+              "RelativeDocumentMoniker": "Travelagency\\README.md",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\Travelagency\\README.md",
+              "RelativeToolTip": "Travelagency\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-17T07:52:29.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "modal.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.css",
+              "RelativeDocumentMoniker": "src\\app\\modal\\modal\\modal.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\modal\\modal\\modal.component.css",
+              "RelativeToolTip": "src\\app\\modal\\modal\\modal.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:23:34.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\styles.css",
+              "RelativeDocumentMoniker": "src\\styles.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\styles.css",
+              "RelativeToolTip": "src\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T07:51:36.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "global.d.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\global.d.ts",
+              "RelativeDocumentMoniker": "src\\global.d.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\global.d.ts",
+              "RelativeToolTip": "src\\global.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T07:50:27.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "details.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\details\\details.component.css",
+              "RelativeDocumentMoniker": "src\\app\\details\\details.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\details\\details.component.css",
+              "RelativeToolTip": "src\\app\\details\\details.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T07:05:14.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\main.ts",
+              "RelativeDocumentMoniker": "src\\main.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\main.ts",
+              "RelativeToolTip": "src\\main.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:08:10.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "admin-home.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\admin-home\\admin-home.component.html",
+              "RelativeDocumentMoniker": "src\\app\\admin-home\\admin-home.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\admin-home\\admin-home.component.html",
+              "RelativeToolTip": "src\\app\\admin-home\\admin-home.component.html",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-10T15:26:14.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "register.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\register\\register.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.ts",
+              "RelativeToolTip": "src\\app\\register\\register.component.ts",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:25:50.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "register.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\register\\register.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\register\\register.component.spec.ts",
+              "RelativeToolTip": "src\\app\\register\\register.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:25:45.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "profile.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\profile\\profile.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.ts",
+              "RelativeToolTip": "src\\app\\profile\\profile.component.ts",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:25:12.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "profile.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\profile\\profile.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.spec.ts",
+              "RelativeToolTip": "src\\app\\profile\\profile.component.spec.ts",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:25:07.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "profile.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.html",
+              "RelativeDocumentMoniker": "src\\app\\profile\\profile.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.html",
+              "RelativeToolTip": "src\\app\\profile\\profile.component.html",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T06:25:00.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "profile.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.css",
+              "RelativeDocumentMoniker": "src\\app\\profile\\profile.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\profile\\profile.component.css",
+              "RelativeToolTip": "src\\app\\profile\\profile.component.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:24:53.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "place-details.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.css",
+              "RelativeDocumentMoniker": "src\\app\\place-details\\place-details.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.css",
+              "RelativeToolTip": "src\\app\\place-details\\place-details.component.css",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:24:22.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "payment.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\payment\\payment.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.spec.ts",
+              "RelativeToolTip": "src\\app\\payment\\payment.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:24:00.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "place-details.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.html",
+              "RelativeDocumentMoniker": "src\\app\\place-details\\place-details.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.html",
+              "RelativeToolTip": "src\\app\\place-details\\place-details.component.html",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-07T14:38:16.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "place-details.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\place-details\\place-details.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.spec.ts",
+              "RelativeToolTip": "src\\app\\place-details\\place-details.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-10T16:33:00.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "place-details.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\place-details\\place-details.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\place-details\\place-details.component.ts",
+              "RelativeToolTip": "src\\app\\place-details\\place-details.component.ts",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwBAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-07T14:38:42.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "payment.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.html",
+              "RelativeDocumentMoniker": "src\\app\\payment\\payment.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.html",
+              "RelativeToolTip": "src\\app\\payment\\payment.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T06:23:56.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "payment.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.css",
+              "RelativeDocumentMoniker": "src\\app\\payment\\payment.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.css",
+              "RelativeToolTip": "src\\app\\payment\\payment.component.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:23:53.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "payment.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\payment\\payment.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\payment\\payment.component.ts",
+              "RelativeToolTip": "src\\app\\payment\\payment.component.ts",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwFIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-10T13:58:14.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "home.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\home\\home.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.spec.ts",
+              "RelativeToolTip": "src\\app\\home\\home.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T05:04:03.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "home.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\home\\home.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\home\\home.component.ts",
+              "RelativeToolTip": "src\\app\\home\\home.component.ts",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwCAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-07T11:17:39.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "login.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.css",
+              "RelativeDocumentMoniker": "src\\app\\login\\login.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.css",
+              "RelativeToolTip": "src\\app\\login\\login.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T05:01:24.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "login.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\login\\login.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.spec.ts",
+              "RelativeToolTip": "src\\app\\login\\login.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-02T03:44:44.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\login\\login.component.ts",
+              "RelativeToolTip": "src\\app\\login\\login.component.ts",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-10T15:06:01.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "header.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\header\\header.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.ts",
+              "RelativeToolTip": "src\\app\\header\\header.component.ts",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-10T15:35:46.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "header.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\header\\header.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.spec.ts",
+              "RelativeToolTip": "src\\app\\header\\header.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T05:27:41.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "header.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.html",
+              "RelativeDocumentMoniker": "src\\app\\header\\header.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.html",
+              "RelativeToolTip": "src\\app\\header\\header.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-10T15:35:33.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "header.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.css",
+              "RelativeDocumentMoniker": "src\\app\\header\\header.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\header\\header.component.css",
+              "RelativeToolTip": "src\\app\\header\\header.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T05:27:30.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "driver-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\driver-list\\driver-list.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.ts",
+              "RelativeToolTip": "src\\app\\driver-list\\driver-list.component.ts",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-07T14:26:28.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "driver-list.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\driver-list\\driver-list.component.spec.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.spec.ts",
+              "RelativeToolTip": "src\\app\\driver-list\\driver-list.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-17T06:21:46.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "driver-list.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.css",
+              "RelativeDocumentMoniker": "src\\app\\driver-list\\driver-list.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.css",
+              "RelativeToolTip": "src\\app\\driver-list\\driver-list.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:21:38.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "driver.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver\\driver.component.html",
+              "RelativeDocumentMoniker": "src\\app\\driver\\driver.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver\\driver.component.html",
+              "RelativeToolTip": "src\\app\\driver\\driver.component.html",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-07T11:25:32.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "driver.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver\\driver.component.css",
+              "RelativeDocumentMoniker": "src\\app\\driver\\driver.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver\\driver.component.css",
+              "RelativeToolTip": "src\\app\\driver\\driver.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T06:21:08.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "driver-list.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.html",
+              "RelativeDocumentMoniker": "src\\app\\driver-list\\driver-list.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\driver-list\\driver-list.component.html",
+              "RelativeToolTip": "src\\app\\driver-list\\driver-list.component.html",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-07T14:26:11.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "details.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\details\\details.component.html",
+              "RelativeDocumentMoniker": "src\\app\\details\\details.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\details\\details.component.html",
+              "RelativeToolTip": "src\\app\\details\\details.component.html",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-07T11:25:27.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\app.component.html",
+              "RelativeToolTip": "src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T04:59:10.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\app.component.css",
+              "RelativeToolTip": "src\\app\\app.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T04:58:29.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "view-my-booking.component.html",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\view-my-booking\\view-my-booking.component.html",
+              "RelativeDocumentMoniker": "src\\app\\view-my-booking\\view-my-booking.component.html",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\view-my-booking\\view-my-booking.component.html",
+              "RelativeToolTip": "src\\app\\view-my-booking\\view-my-booking.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-10T14:43:43.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "view-my-booking.component.ts",
+              "DocumentMoniker": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\view-my-booking\\view-my-booking.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\view-my-booking\\view-my-booking.component.ts",
+              "ToolTip": "C:\\Users\\rivya\\travelAgencyApp\\src\\app\\view-my-booking\\view-my-booking.component.ts",
+              "RelativeToolTip": "src\\app\\view-my-booking\\view-my-booking.component.ts",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-10T14:40:10.221Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 85,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

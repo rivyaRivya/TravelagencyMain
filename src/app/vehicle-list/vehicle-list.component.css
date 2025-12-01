@@ -1,0 +1,36 @@
+.main-img {
+  display: flex;
+  width: 100%;
+}
+
+.main-img img {
+  display: block;
+  margin: auto auto;
+  width: 100%;
+}
+.main-div {
+  margin: 10px 0px;
+  box-shadow: -1px 1px 6px 2px gray;
+  border-radius: 5px;
+  padding: 7px;
+}
+button {
+  align-items: center;
+  background-color: #363f6f;
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 24px;
+  outline: none;
+  padding: 0 40px;
+  float: right;
+  margin-top: 25px;
+}
+p {
+  margin-bottom: 2px;
+}

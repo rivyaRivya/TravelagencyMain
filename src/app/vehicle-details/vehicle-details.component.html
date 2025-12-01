@@ -1,0 +1,43 @@
+<app-header></app-header>
+<div class="col" style="background: url(assets/light.jpg); background-size: cover; height: 667px;">
+  <div class="row">
+    <div class="offset-3 col-9 pt-3" style="margin-bottom:25px;">
+      <form class="form-container">
+        <div class="input-group">
+          <label><strong>Vehicle name *:</strong></label>
+          <input type="text" placeholder="Name" id="name" name="name" [(ngModel)]="vehicleData.name">
+        </div>
+        <div class="input-group">
+          <label><strong>Vehicle Type *:</strong></label>
+          <select [(ngModel)]="vehicleData.type" name="type" style="width: 40%; height: 35px;">
+            <option>Car</option>
+            <option>Bus</option>
+            <option>Travaller</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label><strong>Number of seat *:</strong></label>
+          <input type="text" placeholder="Name" id="seat" name="seat" [(ngModel)]="vehicleData.seatcount">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Package price/day *:</strong></label>
+          <input type="text" placeholder="package" id="package" name="package" [(ngModel)]="vehicleData.amount">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Upload image</strong></label>
+          <input [(ngModel)]="vehicleData.image" name="image"
+                 id="file"
+                 type="file"
+                 (change)="onFileChange($event)">
+        </div>
+        <div style="height: 150px; display: flex; overflow: unset;" *ngIf="imageSrc">
+          <img [src]="imageSrc">
+        </div>
+        <button (click)="addEdit()">Save</button>
+      </form>
+    </div>
+  </div>
+</div>

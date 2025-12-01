@@ -1,0 +1,28 @@
+<app-header></app-header>
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let head of header">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of bookings;let i = index;">
+      <td>{{i+1}}</td>
+      <td>{{user.userName}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.mobile}}</td>
+      <td>{{user.bookingdate | date: 'dd/MM/yyyy'}}</td>
+      <td>{{user.origin}} - {{user.destination}}</td>
+      <td>{{user.startdate | date: 'dd/MM/yyyy'}}- {{user.enddate | date: 'dd/MM/yyyy'}}</td>
+      <td>{{user.amount}}</td>
+      <td>{{user.status}}</td>
+      <td>{{user.type}}:{{user.vehicleName}}</td>
+      <td> <span *ngIf="user.confirmed">{{user.driverName}}</span></td>
+      <td>
+        <button (click)="allocateDriver(user)" *ngIf="!user.confirmed && user.status !='Cancelled'&& user.status !='Pending'">Allocate Driver</button>
+        <div *ngIf="user.confirmed" style="color:darkgreen;">Driver Allocated</div>
+       
+      </td>
+    </tr>
+  </tbody>
+</table>

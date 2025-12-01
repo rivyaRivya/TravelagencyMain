@@ -1,0 +1,18 @@
+select {
+  height: 40px;
+  width: -webkit-fill-available;
+}
+
+button {
+  display: flex;
+  margin: 20px 0 0 auto;
+  align-items: center;
+  background-color: #41483ed6;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  padding: 0px 15px;
+}

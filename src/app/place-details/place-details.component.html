@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div class="col" style="background: url(assets/light.jpg); background-size: cover; height: 667px;">
+  <div class="row">
+    <div class="offset-3 col-9 pt-3" style="margin-bottom:25px;">
+      <form class="form-container">
+        <div class="input-group">
+          <label><strong>Place name:</strong></label>
+          <input type="text" placeholder="Name" id="name" name="name" [(ngModel)]="placeData.name">
+        </div>
+        <div class="input-group">
+          <label><strong>District:</strong></label>
+          <select [(ngModel)]="placeData.district" name="type" style="width: 40%; height: 35px;">
+            <option *ngFor="let data of location">
+              {{data}}
+            </option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label><strong>Description:</strong></label>
+          <textarea type="text" placeholder="Name" id="descr" name="disrc" [(ngModel)]="placeData.description"></textarea>
+        </div>
+        <div class="input-group">
+          <label><strong>Upload image</strong></label>
+          <input [(ngModel)]="placeData.image" name="image"
+                 id="file"
+                 type="file"
+                 (change)="onFileChange($event)">
+        </div>
+        <div style="height: 150px; display: flex; overflow: unset;" *ngIf="imageSrc">
+          <img [src]="imageSrc">
+        </div>
+        <button (click)="saveAndUpdate()">Save</button>
+      </form>
+    </div>
+  </div>
+</div>

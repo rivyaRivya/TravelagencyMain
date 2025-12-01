@@ -1,0 +1,65 @@
+
+<app-header></app-header>
+<div class="form-container" style="background: url(assets/reg.jpg); background-size: cover">
+  <div class="row">
+    <div class="offset-3 col-9 pt-3" style="margin-bottom:54px;">
+      <form>
+        <div class="input-group">
+          <label><strong>First Name *:</strong></label>
+          <input type="text" placeholder="Enter Your First Name" id="fname" name="first" [(ngModel)]="userData.firstname">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Last Name *:</strong></label>
+          <input type="text" placeholder="Enter Your Last Name" id="lname" name="lirst" [(ngModel)]="userData.lastname">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Date of Birth:</strong></label>
+          <input type="date" id="dob" name="dob" [(ngModel)]="userData.dob">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Email Id *:</strong></label>
+          <input type="email" placeholder="Enter Your Email Id" id="email-id" name="email" [(ngModel)]="userData.email" disabled>
+        </div>
+
+
+        <div class="input-group">
+          <label><strong>Mobile No. *:</strong></label>
+          <input type="tel" placeholder="Enter your mobile number" id="phone-no" name="mobile" [(ngModel)]="userData.mobile">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Gender:</strong></label>
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="male" id="male" [(ngModel)]="userData.gender">
+          <label for="male">Male</label>
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="female" id="female" [(ngModel)]="userData.gender">
+          <label for="female">Female</label>
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="other" id="female" [(ngModel)]="userData.gender" />
+          <label for="other">Other</label>
+        </div>
+
+        <div class="input-group">
+          <label><strong>Address:</strong></label>
+          <input type="text" placeholder="Enter Your Address" id="address" name="address" [(ngModel)]="userData.address">
+        </div>
+
+        <div class="input-group">
+          <label><strong>Pin Code:</strong></label>
+          <input type="text" placeholder="Enter Your Pin Code" id="pincode" name="pincode" [(ngModel)]="userData.pin">
+        </div>
+
+        <div class="input-group">
+          <label><strong>City:</strong></label>
+          <input type="text" placeholder="Enter Your City" id="city" name="city" [(ngModel)]="userData.city">
+        </div>
+
+        <button (click)="updateUser()">Update</button>
+
+      </form>
+
+    </div>
+  </div>
+
+</div>

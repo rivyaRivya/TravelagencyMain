@@ -1,0 +1,29 @@
+<app-header></app-header>
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let head of header">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of bookings;let i = index;">
+      <td>{{i+1}}</td>
+      <td>{{user.bookingdate | date: 'dd/MM/yyyy'}}</td>
+      <td>{{user.origin}} - {{user.destination}}</td>
+      <td>{{user.startdate | date: 'dd/MM/yyyy'}}- {{user.enddate | date: 'dd/MM/yyyy'}}</td>
+      <td>{{user.amount}}</td>
+      <td [ngClass]="{'orange': user.status == 'Pending', 'green' : user.status == 'Confirmed', 'red' : user.status == 'Cancelled' }">
+        <span *ngIf="user.status!='Pending'"> {{user.status}}</span>
+        <button *ngIf="user.status=='Pending'" (click)="bookNow(user.id)">Book</button>
+     </td>
+      <td>{{user.type}}:{{user.vehicleName}}</td>
+      <td>
+        <button (click)="cancelBooking(user)" *ngIf="user.status != 'Cancelled'">Cancel</button>
+        <div *ngIf="user.status == 'Cancelled'">---</div>
+      </td>
+    </tr>
+    <tr *ngIf="bookings.length ==0">
+      <td colspan="8" style="text-align:center;">No Data available</td>
+    </tr>
+  </tbody>
+</table>

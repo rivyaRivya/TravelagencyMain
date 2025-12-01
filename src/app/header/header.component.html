@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="navbar-brand" style="margin-left:10px;">Travel Agency</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" *ngFor="let data of header">
+        <a class="nav-link" routerLink="{{data.url}}">{{data.name}}</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" *ngIf="!isLogin" [routerLink]="['/login']">
+        <div class="nav-link">Login</div>
+      </li>
+      <li class="nav-item active" *ngIf="isLogin" (click)="logout()">
+        <div class="nav-link">Logout</div>
+      </li>
+    </ul>
+  </div>
+</nav>

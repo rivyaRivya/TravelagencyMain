@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<button style="margin:5px; float:right" (click)="newDriver()"> Add new driver</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let head of header">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of list;let i = index;">
+      <td>{{i+1}}</td>
+      <td>{{user.firstname}}</td>
+      <td>{{user.lastname}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.type}}</td>
+      <td>{{user.gender}}</td>
+      <td>{{user.mobile}}</td>
+      <td>{{user.address}}</td>
+      <td>{{user.city}}</td>
+      <td>
+        <button (click)="viewDetails(user.id)">View</button>
+      </td>
+      <td>
+        <button (click)="delete(user.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

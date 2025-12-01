@@ -1,0 +1,52 @@
+<app-header></app-header>
+<div class="row" style="margin:10px;">
+  <div class="col">
+    <div class="row" style="margin:5px;">
+      <div class="col-12">
+        <div class="row main-div">
+          <div class="col-2">
+            <div class="main-img">
+              <img src="{{bookingDetails.vehicleData.image}}" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="container">
+              <div class="header">Vehicle Booking - Advance Payment</div>
+              <div class="info">
+                Your journey is starting from {{bookingDetails.origin}} to
+                {{bookingDetails.destination}} ({{bookingDetails.startdate | date: 'dd/MM/yyyy'}} to {{bookingDetails.enddate | date: 'dd/MM/yyyy'}}).
+              </div>
+              <div class="amount">To confirm your booking, you must pay an advance amount of 500.00 Rs</div>
+              <div class="info">This advance payment secures your booking and will be deducted from the total cost of the vehicle rental. The remaining balance is due upon delivery/pick-up.</div>
+              <div class="note">Note: The advance is non-refundable.</div>
+              <div class="col">
+                <button (click)="bookNow()">Book Now <img src="assets/right-arrow.svg" alt="Image Alt Text" style="height: 10px; margin-left: 10px; "></button>
+              </div>
+            </div>
+
+            
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-12" style="margin-top: 16px;">
+    <div class="row">
+      <div class="col-12">
+        <h4>Tourist place to visit</h4>
+        <div class="row" style="margin:10px 0px" *ngFor="let data of list">
+          <div class="col-3">
+            <div class="main-img">
+              <img src="{{data.image}}" />
+            </div>
+          </div>
+          <div class="col">
+            <h3>{{data.name}}</h3>
+            <p>
+              {{data.description}}
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
